@@ -5,9 +5,9 @@
 ### 시연 영상은 본 repository에 시연영상.mkv로 업로드 되어있습니다.
 
 ## 실행 방법
-### 1. test_src의 test_detect_face.py를 실행시키고 노트북 카메라에 얼굴이 잘 나오게 있으면 카메라가 학습 데이터로 쓰일 얼굴 사진 100장을 찍어서 test_db에 저장한다.
-### 2. test_src의 test_train_face,py를 실행시키면 recognizer 모델을 훈련 시키고 그 결과를 face-trainer.yml에 저장한다.
-### 3. test_src의 test_face_dec.py를 실행시키면 노트북의 내장 카메라가 실행되면서 학습 시킨 특정 얼굴만 네모를 띄우고 모자이크 처리를 한다.
+### 1. test_src의 test_detect_face.py를 실행시키고 노트북 카메라에 얼굴이 잘 나오게 있으면 카메라가 학습 데이터로 쓰일 얼굴 사진 100장을 찍어서 test_db에 저장합니다.
+### 2. test_src의 test_train_face,py를 실행시키면 recognizer 모델을 훈련 시키고 그 결과를 face-trainer.yml에 저장합니다.
+### 3. test_src의 test_face_dec.py를 실행시키면 노트북의 내장 카메라가 실행되면서 학습 시킨 특정 얼굴만 네모를 띄우고 모자이크 처리를 합니다.
 
 ## 참고 자료
 ### 파이썬#90 - 파이썬 opencv 로 얼굴 인식, 얼굴 자동 모자이크, https://blog.naver.com/PostView.naver?blogId=nkj2001&logNo=222747037611
